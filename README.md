@@ -31,7 +31,7 @@ Planned and existing capabilities:
 - **SD Card Integration:** JSON-backed settings, storage for games, and music library management.
 - **Developer Toolkit:** Built-in debug layers, configurable pins, and custom firmware hooks for your own projects.
 
-## ⚠️ Project Status: Experimental
+## ⚠️ Project Status: Experimental ⚠️
 
 RowBoy is currently in an **unstable prototype phase**.  
 Core systems like the UI, SD integration, and input mapping are functional,  
