@@ -22,6 +22,14 @@
 **RowBoy** is an experimental handheld firmware environment designed to transform the ESP32-S3 into a self-contained console and media device.  
 It merges the structure of a modern embedded devkit with the polish of a retro-inspired gaming OS.
 
+> [!WARNING]
+> ⚠️ **RowBoy Firmware Status: UNFINISHED** ⚠️  
+> This project is currently in active development.  
+> Many components may be **unstable, unoptimized, or non-functional**.  
+> Expect bugs, incomplete features, and breaking changes.  
+> This warning will be removed once the firmware reaches a stable release.
+
+
 Planned and existing capabilities:
 
 - **Dynamic Menu UI:** Carousel or list-based interface with themes, animation, and autosave, all built by moi
