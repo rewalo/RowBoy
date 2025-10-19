@@ -23,7 +23,7 @@
 It merges the structure of a modern embedded devkit with the polish of a retro-inspired gaming OS.
 
 > [!WARNING]
-> ⚠️ **RowBoy Firmware Status: UNFINISHED** ⚠️  
+> **RowBoy Firmware Status: UNFINISHED** 
 > This project is currently in active development.  
 > Many components may be **unstable, unoptimized, or non-functional**.  
 > Expect bugs, incomplete features, and breaking changes.  
