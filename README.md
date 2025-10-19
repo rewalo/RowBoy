@@ -120,7 +120,7 @@ RowBoy uses a custom display setup for **ST7796** drivers.
 2. Open `User_Setup_Select.h` and include your driver header:
    ```cpp
    // #include <User_Setup.h>
-   #include <User_Setups/RowBoy_ILI9488.h>
+   #include <User_Setups/RowBoy_ST7796.h>
    ```
 3. Copy the provided setup header (`RowBoy_ST7796.h`)
    into `User_Setups/` and adjust your pins if needed.
