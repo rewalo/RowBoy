@@ -34,8 +34,7 @@ Planned and existing capabilities:
 ## ⚠️ Project Status: Experimental ⚠️
 
 RowBoy is currently in an **unstable prototype phase**.  
-Core systems like the UI, SD integration, and input mapping are functional,  
-but many planned features (audio, app launcher, emulation, etc.) are still WIP.  
+Core systems like the UI, SD integration, and input mapping are functional, but many planned features (audio, app launcher, emulation, etc.) are still WIP.  
 
 Use this firmware at your own risk!! Expect frequent changes, missing features, and occasional crashes.
 
