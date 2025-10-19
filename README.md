@@ -22,16 +22,6 @@
 **RowBoy** is an experimental handheld firmware environment designed to transform the ESP32-S3 into a self-contained console and media device.  
 It merges the structure of a modern embedded devkit with the polish of a retro-inspired gaming OS.
 
-> [!WARNING]
-> **RowBoy Firmware Status: UNFINISHED**  
-> <br>
-> This project is currently in active development.  
-> Many components may be **unstable, unoptimized, or non-functional**.  
-> Expect bugs, incomplete features, and breaking changes.  
-> <br>
-> This warning will be removed once the firmware reaches a stable release.
-
-
 Planned and existing capabilities:
 
 - **Dynamic Menu UI:** Carousel or list-based interface with themes, animation, and autosave, all built by moi
@@ -40,6 +30,14 @@ Planned and existing capabilities:
 - **Audio Pipeline (WIP):** PCM5102 DAC + PAM8403 amplifier with planned support for tracker-style playback.
 - **SD Card Integration:** JSON-backed settings, storage for games, and music library management.
 - **Developer Toolkit:** Built-in debug layers, configurable pins, and custom firmware hooks for your own projects.
+
+## ⚠️ Project Status: Experimental
+
+RowBoy is currently in an **unstable prototype phase**.  
+Core systems like the UI, SD integration, and input mapping are functional,  
+but many planned features (audio, app launcher, emulation, etc.) are still WIP.  
+
+Use this firmware at your own risk!! Expect frequent changes, missing features, and occasional crashes.
 
 ---
 
