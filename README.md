@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/rewalo/RowBoy/assets/rowboy_logo.png" alt="RowBoy" width="150">
+  <img src="https://raw.githubusercontent.com/rewalo/RowBoy/main/assets/rowboy_logo.png" alt="RowBoy" width="150">
   <br>
   <b>RowBoy Firmware Prototype v1.0 (ESP32-S3)</b>
   <br>
