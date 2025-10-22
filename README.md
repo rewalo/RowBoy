@@ -72,18 +72,35 @@ Use this firmware at your own risk!! Expect frequent changes, missing features, 
 | **Battery** | 1S Li-ion via charger module | Optional |
 | **Backlight / LED** | PWM-controlled | Uses ledcWrite() |
 
-### Default SPI & IO Pins
+> [!NOTE]
+> The **TFT Display** and **MicroSD Module** share the same **SPI bus** (MOSI = 42, MISO = 38, SCLK = 2) but use **separate chip‑select lines** (`TFT_CS = 9`, `SD_CS = 10`)
 
-| Signal | Pin | Purpose |
-|:-------|:----|:--------|
-| **TFT_CS** | 9 | TFT Chip Select |
-| **SD_CS**  | 10 | SD Card CS |
-| **TFT_MOSI** | 42 | Shared MOSI |
-| **TFT_MISO** | 38 | Shared MISO |
-| **TFT_SCLK** | 2  | Shared Clock |
-| **LED_PIN** | 4  | Status / Power LED |
-| **TFT_BL**  | 1  | Backlight PWM |
-| **BTN_PIN** | 5  | Pairing / Menu Button |
+### Default Pin Setup
+| Component           | Signal   | GPIO Pin  |
+|---------------------|----------|-----------|
+| **TFT Display**     | CS       | 9         |
+|                     | DC       | 41        |
+|                     | RST      | 40        |
+|                     | MOSI     | 42        |
+|                     | MISO     | 38        |
+|                     | SCLK     | 2         |
+|                     | BL       | 1         |
+| **MicroSD Module**  | CS       | 10        |
+|                     | MOSI     | 42        |
+|                     | MISO     | 38        |
+|                     | SCLK     | 2         |
+| **LED**             | 3V3      | 4         |
+| **Pairing Btn**     | A        | 5         |
+| **Audio (I2S)**     | LCK (WS) | 6         |
+|                     | DIN (SD) | 7         |
+|                     | BCK      | 15        |
+|                     | SCK      | 16        |
+| Mechanical Buttons  | UP       | -1        |
+|                     | DOWN     | -1        |
+|                     | OK / A   | -1        |
+|                     | BACK / B | -1        |
+|                     | START    | -1        |
+|                     | SELECT   | -1        |
 
 ---
 
