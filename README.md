@@ -90,7 +90,7 @@ Use this firmware at your own risk!! Expect frequent changes, missing features, 
 |                       | MISO     | 38        |
 |                       | SCLK     | 2         |
 | **LED**               | 3V3      | 4         |
-| **Pairing Btn**       | A        | 5         |
+| **Pairing Button**    | A        | 5         |
 | **Audio (I2S)**       | LCK (WS) | 6         |
 |                       | DIN (SD) | 7         |
 |                       | BCK      | 15        |
