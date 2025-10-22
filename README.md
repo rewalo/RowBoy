@@ -76,31 +76,31 @@ Use this firmware at your own risk!! Expect frequent changes, missing features, 
 > The **TFT Display** and **MicroSD Module** share the same **SPI bus** (MOSI = 42, MISO = 38, SCLK = 2) but use **separate chip‑select lines** (`TFT_CS = 9`, `SD_CS = 10`)
 
 ### Default Pin Setup
-| Component           | Signal   | GPIO Pin  |
-|---------------------|----------|-----------|
-| **TFT Display**     | CS       | 9         |
-|                     | DC       | 41        |
-|                     | RST      | 40        |
-|                     | MOSI     | 42        |
-|                     | MISO     | 38        |
-|                     | SCLK     | 2         |
-|                     | BL       | 1         |
-| **MicroSD Module**  | CS       | 10        |
-|                     | MOSI     | 42        |
-|                     | MISO     | 38        |
-|                     | SCLK     | 2         |
-| **LED**             | 3V3      | 4         |
-| **Pairing Btn**     | A        | 5         |
-| **Audio (I2S)**     | LCK (WS) | 6         |
-|                     | DIN (SD) | 7         |
-|                     | BCK      | 15        |
-|                     | SCK      | 16        |
-| Mechanical Buttons  | UP       | -1        |
-|                     | DOWN     | -1        |
-|                     | OK / A   | -1        |
-|                     | BACK / B | -1        |
-|                     | START    | -1        |
-|                     | SELECT   | -1        |
+| Component             | Signal   | GPIO Pin  |
+|-----------------------|----------|-----------|
+| **TFT Display**       | CS       | 9         |
+|                       | DC       | 41        |
+|                       | RST      | 40        |
+|                       | MOSI     | 42        |
+|                       | MISO     | 38        |
+|                       | SCLK     | 2         |
+|                       | BL       | 1         |
+| **MicroSD Module**    | CS       | 10        |
+|                       | MOSI     | 42        |
+|                       | MISO     | 38        |
+|                       | SCLK     | 2         |
+| **LED**               | 3V3      | 4         |
+| **Pairing Btn**       | A        | 5         |
+| **Audio (I2S)**       | LCK (WS) | 6         |
+|                       | DIN (SD) | 7         |
+|                       | BCK      | 15        |
+|                       | SCK      | 16        |
+| **Mechanical Buttons**| UP       | -1        |
+|                       | DOWN     | -1        |
+|                       | OK / A   | -1        |
+|                       | BACK / B | -1        |
+|                       | START    | -1        |
+|                       | SELECT   | -1        |
 
 ---
 
